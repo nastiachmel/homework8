@@ -1,0 +1,92 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #202020;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 30px;
+    padding: 0 0 10px 0;
+    color: #202020;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    margin: 0 0 35px 0;
+}
+
+h1 strong {
+    color: #2ec06c;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.mainer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main {
+    padding: 100px 0;
+} 
+.description{
+    text-align: center;
+    color: #b8b8b8;
+    margin: 0 0 60px 0;
+}
+.block-social{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  align-content: space-between;
+justify-content: space-between;
+
+}
+.block-social li{
+border: 1px solid;
+border-radius: 4px;
+width: calc(50% - 15px);
+height: calc( 50% - 15px);
+box-sizing: border-box;
+}
